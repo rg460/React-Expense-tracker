@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
 
 const ExpenseItem = () => {
   return (
-    <div> 
-        <h2>Expense Item</h2>
+    <div>
+      <div>Date</div>
+      <div>
+        <h2>Title</h2>
+      </div>
+      <div>Amount</div>
     </div>
-  )
-}
+  );
+};
 
 export default ExpenseItem;
