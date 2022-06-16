@@ -2,8 +2,10 @@ import React from 'react'
 
 const ExpenseItem = () => {
   return (
-    <div>ExpenseItem</div>
+    <div> 
+        <h2>Expense Item</h2>
+    </div>
   )
 }
 
-export default ExpenseItem
+export default ExpenseItem;
