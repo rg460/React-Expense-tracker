@@ -2,6 +2,7 @@ import React from "react";
 import './ExpenseItem.css';
 
 const ExpenseItem = () => {
+    const expenseDate = new Date(2022,6,20);
   return (
     <div className="expense-item">
       <div>June 20th 2022</div>
