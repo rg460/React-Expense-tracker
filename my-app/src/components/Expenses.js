@@ -1,11 +1,11 @@
 import React from 'react'
 import ExpenseItem from '../components/ExpenseItem';
-import'./Expenses.css'
+import './Expenses.css';
 function Expenses(props) {
    
   return (
       
-    <div className = "expenses">
+    <div className="expenses">
        
       <ExpenseItem
         title={props.items[0].title}
